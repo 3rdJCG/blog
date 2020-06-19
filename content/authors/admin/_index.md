@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: Electoronics, Control Engineering
+  - course: Electronics, Control Engineering
     institution: National Institute of Technology, Kisarazu College
     year: 4th
 
