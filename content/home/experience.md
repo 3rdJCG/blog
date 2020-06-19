@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Chiba, Japan"
   date_start = "2016-04-01"
-  date_end = "Present"
+  date_end = ""
   description = """Learn about electronics and control engineering."""
 
 +++
