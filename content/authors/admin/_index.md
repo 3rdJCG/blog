@@ -14,21 +14,23 @@ role:
 
 # Organizations/Affiliations
 organizations:
-- name: 木更津工業高等専門学校
+- name: National Institute of Technology, Kisarazu College
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 電子工作が趣味の学生です
+bio: 電子工作とLaTeXが趣味の学生です
 
 interests:
-- 電子工作
+- PCB Design
+- Circuit Design
+- Internet of Things
 - LaTeX
 
 education:
   courses:
-  - course: 電子制御工学
-    institution: 木更津工業高等専門学校
-    year: Now
+  - course: Electoronics, Control Engineering
+    institution: National Institute of Technology, Kisarazu College
+    year: 4th
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
