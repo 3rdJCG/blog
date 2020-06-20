@@ -31,12 +31,19 @@ subtitle = ""
   icon_pack = "custom"
   name = "LaTeX/TeX"
   description = ""
+
+[[feature]]
+  icon = "bluetooth"
+  icon_pack = "fab"
+  name = "BLE Device Develop"
+  description = ""
   
 [[feature]]
   icon = "git"
   icon_pack = "fab"
   name = "Git"
   description = ""
+
 
 # Uncomment to use emoji icons.
 # [[feature]]
