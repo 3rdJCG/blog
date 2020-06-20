@@ -25,6 +25,12 @@ subtitle = ""
   icon_pack = "custom"
   name = "Arduino"
   description = ""
+
+[[feature]]
+  icon = "LaTeX-Logo"
+  icon_pack = "custom"
+  name = "LaTeX"
+  description = ""
   
 [[feature]]
   icon = "git"
