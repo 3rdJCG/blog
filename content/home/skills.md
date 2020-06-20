@@ -19,17 +19,17 @@ subtitle = ""
   icon_pack = "custom"
   name = "kiCad"
   description = ""
+
+[[feature]]
+  icon = "Arduino-Logo"
+  icon_pack = "custom"
+  name = "Arduino"
+  description = ""
   
 [[feature]]
   icon = "git"
   icon_pack = "fab"
   name = "Git"
-  description = ""  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
   description = ""
 
 # Uncomment to use emoji icons.
