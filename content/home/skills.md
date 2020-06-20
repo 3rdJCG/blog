@@ -29,7 +29,7 @@ subtitle = ""
 [[feature]]
   icon = "LaTeX-Logo"
   icon_pack = "custom"
-  name = "LaTeX"
+  name = "LaTeX/TeX"
   description = ""
   
 [[feature]]
