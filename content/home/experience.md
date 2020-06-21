@@ -21,7 +21,7 @@ date_format = "Jan 2006"
   title = "Electronics, Controll Engineering"
   company = "National Institute of Technology, Kisarazu College"
   company_url = ""
-  location = "Chiba, Japan"
+  location = "Kisarazu, Chiba"
   date_start = "2016-04-01"
   date_end = ""
   description = """Learn about electronics and control engineering."""
@@ -30,13 +30,23 @@ date_format = "Jan 2006"
   title = "Internship"
   company = "jig.jp Co., Ltd"
   company_url = "https://jig.jp/"
-  location = "Fukui, Japan"
+  location = "Sabae, Fukui"
   date_start = "2018-08-21"
   date_end = "2018-09-08"
   description = """
-  I joined the jig.jp internship program.
-  
+  Joined the jig.jp internship program.
   A prototype of the service was developed to ensure proper evacuation in the event of a disaster.
+  """
+
+[[experience]]
+  title = "Hardware Engineer"
+  company = ""
+  company_url = ""
+  location = "Chiyoda ward, Tokyo"
+  date_start = "2019-06-01"
+  date_end = "2019-08-01"
+  description = """
+  Joined a part-time job as a circuit and PCB design work while in college.
   """
 
 +++
