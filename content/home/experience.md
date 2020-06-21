@@ -20,7 +20,7 @@ date_format = "2006-01-02"
 [[experience]]
   title = "Electronics, Controll Engineering"
   company = "National Institute of Technology, Kisarazu College"
-  company_url = ""
+  company_url = "http://www.kisarazu.ac.jp/"
   location = "Kisarazu, Chiba"
   date_start = "2016-04-01"
   date_end = ""
