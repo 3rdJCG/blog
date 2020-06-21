@@ -5,14 +5,14 @@ name = "shinonome"
 light = true
 
 # Primary
-primary = "#4ecdc4"
+primary = "#ff6b6b"
 
 # Menu
 menu_primary = "#fff"
 menu_text = "#34495e"
-menu_text_active = "#4ecdc4"
+menu_text_active = "#ff6b6b"
 menu_title = "#2b2b2b"
 
 # Home sections
-home_section_odd = "#ffffff"
+home_section_odd = "#4ecdc4"
 home_section_even = "#f7fff7"
