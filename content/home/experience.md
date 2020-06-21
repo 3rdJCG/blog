@@ -18,12 +18,25 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Enrollment in college"
+  title = "Electronics, Controll Engineering"
   company = "National Institute of Technology, Kisarazu College"
   company_url = ""
   location = "Chiba, Japan"
   date_start = "2016-04-01"
   date_end = ""
   description = """Learn about electronics and control engineering."""
+
+[[experience]]
+  title = "Internship"
+  company = "jig.jp Co., Ltd"
+  company_url = "https://jig.jp/"
+  location = "Fukui, Japan"
+  date_start = "2018-08-21"
+  date_end = "2018-09-08"
+  description = """
+  I joined the jig.jp internship program.
+  
+  A prototype of the service was developed to ensure proper evacuation in the event of a disaster.
+  """
 
 +++
