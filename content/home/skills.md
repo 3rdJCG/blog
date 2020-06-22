@@ -17,7 +17,7 @@ subtitle = ""
 [[feature]]
   icon = "KiCad-Logo"
   icon_pack = "custom"
-  name = "kiCad"
+  name = "KiCad"
   description = ""
 
 [[feature]]
