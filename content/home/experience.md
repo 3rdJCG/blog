@@ -18,13 +18,13 @@ date_format = "2006-01-02"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Electronics, Controll Engineering"
+  title = "Electronics, Control Engineering"
   company = "National Institute of Technology, Kisarazu College"
   company_url = "http://www.kisarazu.ac.jp/"
   location = "Kisarazu, Chiba"
   date_start = "2016-04-01"
   date_end = ""
-  description = """Learn about electronics and control engineering."""
+  description = """Learn about Electronics and Control engineering."""
 
 [[experience]]
   title = "Internship"
