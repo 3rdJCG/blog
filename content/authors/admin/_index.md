@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 
+role: a.k.a Ibuki KOSHINO
 
 # Organizations/Affiliations
 organizations:
