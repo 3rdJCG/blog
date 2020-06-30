@@ -15,7 +15,7 @@ role: Ibuki KOSHINO
 # Organizations/Affiliations
 organizations:
 - name: National Institute of Technology, Kisarazu College
-  url: ""
+  url: "http://www.kisarazu.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 電子工作とLaTeXが趣味の学生です
