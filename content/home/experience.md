@@ -39,6 +39,18 @@ date_format = "2006-01-02"
   """
 
 [[experience]]
+  title = "Member of a fire brigade"
+  company = "Kisarazu City Fire Brigade Student Division"
+  company_url = "https://www.city.kisarazu.lg.jp/1004658/1004711/index.html"
+  location = "Kisarazu, Chiba"
+  date_start = "2019-04-18"
+  date_end = ""
+  description = """
+  I joined the student section of the Kisarazu Fire Brigade.
+  We provide logistical support in times of disaster and conduct disaster prevention and fire prevention campaigns.
+  """
+
+[[experience]]
   title = "Hardware Engineer"
   company = ""
   company_url = ""
