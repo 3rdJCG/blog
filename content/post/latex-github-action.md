@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Latex Github Action"
+title: "GitHub ActionsでLaTeXのビルドを自動化する"
 subtitle: ""
 summary: ""
 authors: []
@@ -28,7 +28,6 @@ image:
 projects: []
 ---
 
-# GitHub ActionsでLaTeXのビルドを自動化する
 
 GitHub Actionsというサービスが始まっていた。
 LaTeXのビルドを自動化できたらいいなと思って使ってみようとしたが、
