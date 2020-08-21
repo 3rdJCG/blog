@@ -2,7 +2,7 @@
 name = "shinonome"
 
 # Is theme light or dark?
-light = true
+light = false
 
 # Primary
 primary = "#ED254E"
