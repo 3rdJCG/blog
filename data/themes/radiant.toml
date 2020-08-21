@@ -1,0 +1,18 @@
+# Theme metadata
+name = "shinonome"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#ED254E"
+
+# Menu
+menu_primary = "#fff"
+menu_text = "#34495e"
+menu_text_active = "#ED254E"
+menu_title = "#2b2b2b"
+
+# Home sections
+home_section_odd = "#1C252E"
+home_section_even = "#F4FFFD"
