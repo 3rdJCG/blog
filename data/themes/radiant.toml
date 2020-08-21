@@ -5,7 +5,7 @@ name = "shinonome"
 light = false
 
 # Primary
-primary = "#D3D3D3"
+primary = "#ED254E"
 
 # Menu
 menu_primary = "#1A1A1A"
@@ -15,4 +15,4 @@ menu_title = "#D3D3D3"
 
 # Home sections
 home_section_odd = "#1C252E"
-home_section_even = "#ED254E"
+home_section_even = "#ECE8E1"
