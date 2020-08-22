@@ -3,4 +3,6 @@
 avilable on [3rdjcg.dev](http://3rdjcg.dev)
 
 ## Changelog
+**2020/08/22** Change theme to dark
+
 **2020/06/20** Started
