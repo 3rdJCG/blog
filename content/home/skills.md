@@ -15,13 +15,13 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
 [[feature]]
-  icon = "KiCad-Logo"
+  icon = "KiCad-Logo-red"
   icon_pack = "custom"
   name = "KiCad"
   description = "90%"
 
 [[feature]]
-  icon = "Arduino-Logo"
+  icon = "Arduino-Logo-red"
   icon_pack = "custom"
   name = "Arduino"
   description = "90%"
@@ -33,7 +33,7 @@ subtitle = ""
   description = "80%"
 
 [[feature]]
-  icon = "LaTeX-Logo"
+  icon = "LaTeX-Logo-red"
   icon_pack = "custom"
   name = "LaTeX/TeX"
   description = "80%"
