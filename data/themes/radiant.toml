@@ -14,5 +14,6 @@ menu_text_active = "#ED254E"
 menu_title = "#D3D3D3"
 
 # Home sections
+background = "#353535"
 home_section_odd = "#1C252E"
 home_section_even = "#353535"
