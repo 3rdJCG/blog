@@ -18,31 +18,37 @@ subtitle = ""
   icon = "KiCad-Logo"
   icon_pack = "custom"
   name = "KiCad"
-  description = ""
+  description = "90%"
 
 [[feature]]
   icon = "Arduino-Logo"
   icon_pack = "custom"
   name = "Arduino"
-  description = ""
+  description = "90%"
+
+[[feature]]
+  icon = "microchip"
+  icon_pack = "fas"
+  name = "MCU Programming"
+  description = "80%"
 
 [[feature]]
   icon = "LaTeX-Logo"
   icon_pack = "custom"
   name = "LaTeX/TeX"
-  description = ""
-
-[[feature]]
-  icon = "bluetooth"
-  icon_pack = "fab"
-  name = "BLE Device Develop"
-  description = ""
+  description = "80%"
   
 [[feature]]
   icon = "git-alt"
   icon_pack = "fab"
   name = "Git"
-  description = ""
+  description = "90%"
+
+[[feature]]
+  icon = "docker"
+  icon_pack = "fab"
+  name = "Docker"
+  description = "60%"
 
 
 # Uncomment to use emoji icons.
