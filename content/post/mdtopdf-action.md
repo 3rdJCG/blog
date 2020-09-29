@@ -41,7 +41,7 @@ MarkdownをTeXに変換するソフトウェアとしてPandocが有名だが、
 Pandocと周辺ソフトウェアをDockerイメージにまとめた[mdtopdf](https://github.com/p1ass/mdtopdf)があったのでこれを使用した。
 
 ### GitHub Actions
-前に作ったAction[3rdJCG/latex-build-langja](https://github.com/3rdJCG/latex-build-langja) をもとに上述したDockerイメージを使用するように変更し、
+前に作ったAction[3rdJCG/latex-build-langja](https://github.com/3rdJCG/latex-build-langja)をもとに上述したDockerイメージを使用するように変更し、
 mdtopdfのPDF以外のTeXやHTML出力機能も使えるようにオプションで対応したAction[3rdJCG/mdtopdf-action](https://github.com/3rdJCG/mdtopdf-action)を作成した。
 
 
