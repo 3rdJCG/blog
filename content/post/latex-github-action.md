@@ -38,6 +38,6 @@ Dockerイメージ[latex-ci-notojp](https://hub.docker.com/repository/docker/3rd
 LaTeXの日本語環境でのソースコード表示用にplistingsと日本語フォントとしてNotoフォントをイメージ内に組み込んだ。
 
 ## GitHub Action
-[xu-cheng/latex-action](https://github.com/xu-cheng/latex-action)をもとに、作成したDockerイメージを使用するAction [3rdJCG/latex-build-langja](https://github.com/3rdJCG/latex-build-langja)を作成した。
+[xu-cheng/latex-action](https://github.com/xu-cheng/latex-action)をもとに、作成したDockerイメージを使用するAction[3rdJCG/latex-build-langja](https://github.com/3rdJCG/latex-build-langja)を作成した。
 本家同様引数やコンパイルオプションに対応したほか、
 日本語環境特有の拡張機能の不具合などに対応するためTlmgrで拡張機能の追加でインストールできるようにしている。

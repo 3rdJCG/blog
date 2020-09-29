@@ -34,15 +34,15 @@ LaTeXに詳しくない友人とちょっとした文書を共同で書くこと
 もちろん従来のエディタでも編集できるようにした。
 
 ## 実装
-以下のように実装した。構造自体は [前回の記事]("https://3rdjcg.dev/post/latex-github-action/") とほぼ同様である。
+以下のように実装した。構造自体は[前回の記事](https://3rdjcg.dev/post/latex-github-action/)とほぼ同様である。
 
 ### Dockerイメージ
 MarkdownをTeXに変換するソフトウェアとしてPandocが有名だが、これを直接GitHub Actionsで使用することはできない。
-Pandocと周辺ソフトウェアをDockerイメージにまとめた [mdtopdf]("https://github.com/p1ass/mdtopdf") があったのでこれを使用した。
+Pandocと周辺ソフトウェアをDockerイメージにまとめた[mdtopdf](https://github.com/p1ass/mdtopdf)があったのでこれを使用した。
 
 ### GitHub Actions
-前に作ったAction [3rdJCG/latex-build-langja](https://github.com/3rdJCG/latex-build-langja) をもとに上述したDockerイメージを使用するように変更し、
-mdtopdfのPDF以外のTeXやHTML出力機能も使えるようにオプションで対応したAction [3rdJCG/mdtopdf](https://github.com/3rdJCG/mdtopdf) を作成した。
+前に作ったAction[3rdJCG/latex-build-langja](https://github.com/3rdJCG/latex-build-langja) をもとに上述したDockerイメージを使用するように変更し、
+mdtopdfのPDF以外のTeXやHTML出力機能も使えるようにオプションで対応したAction[3rdJCG/mdtopdf-action](https://github.com/3rdJCG/mdtopdf-action)を作成した。
 
 
 # 使用法
