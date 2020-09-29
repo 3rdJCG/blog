@@ -45,5 +45,5 @@ Pandocと周辺ソフトウェアをDockerイメージにまとめた[mdtopdf](h
 mdtopdfのPDF以外のTeXやHTML出力機能も使えるようにオプションで対応したAction[3rdJCG/mdtopdf-action](https://github.com/3rdJCG/mdtopdf-action)を作成した。
 
 
-# 使用法
+## 使用法
 あ
