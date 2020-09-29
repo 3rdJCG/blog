@@ -33,3 +33,11 @@ LaTeXのビルドを自動化できたらいいなと思って使ってみよう
 他人の作ったActionではいつも使っているフォントが使えないことが発覚した。
 そのためDockerイメージとActionを自作し、解決することにした。
 
+## Dockerイメージ
+Dockerイメージ[latex-ci-notojp](https://hub.docker.com/repository/docker/3rdjcg/latex-ci-notojp)を作った。
+LaTeXの日本語環境でのソースコード表示用にplistingsと日本語フォントとしてNotoフォントをイメージ内に組み込んだ。
+
+## GitHub Action
+[xu-cheng/latex-action](https://github.com/xu-cheng/latex-action)をもとに、作成したDockerイメージを使用するActionを作成した。
+本家同様引数やコンパイルオプションに対応したほか、
+日本語環境特有の拡張機能の不具合などに対応するためTlmgrで拡張機能の追加でインストールできるようにしている。
