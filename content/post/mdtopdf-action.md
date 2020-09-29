@@ -34,6 +34,7 @@ LaTeXに詳しくない友人とちょっとした文書を共同で書くこと
 もちろん従来のエディタでも編集できるようにした。
 
 ## 実装
+以下のように実装した。構造自体は[前回の記事]("https://3rdjcg.dev/post/latex-github-action/")とほぼ同様である。
 
 ### Dockerイメージ
 MarkdownをTeXに変換するソフトウェアとしてPandocが有名だが、これを直接GitHub Actionsで使用することはできない。
