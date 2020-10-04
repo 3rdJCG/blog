@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: []
 tags: []
-categories: []
+categories: [Tech]
 date: 2020-09-29T10:28:56+09:00
 lastmod: 2020-09-29T10:28:56+09:00
 featured: false
