@@ -61,4 +61,15 @@ date_format = "2006-01-02"
   Joined a part-time job as a circuit and PCB design work while in college.
   """
 
+[[experience]]
+  title = "Representative"
+  company = "KOSENation Gaming"
+  company_url = "https://kosenation.netlify.app"
+  location = ""
+  date_start = "2020-10-04"
+  date_end = ""
+  description = """
+  I started an organization that aims to kick-start esports activities among students.
+  """
+
 +++
