@@ -33,6 +33,59 @@ LaTeXに詳しくない友人とちょっとした文書を共同で書くこと
 そこで、GitHub ActionsでMarkdownを編集すると自動でLaTeX経由でPDF化するようなリポジトリを構築してGitHubのWebGUIでも編集でき、
 もちろん従来のエディタでも編集できるようにした。
 
+## 使用法
+使用法について解説する。
+まず、一般的なGitHub Actionsの使い方と同様に以下のようにファイルとディレクトリを配置する。
+```
+リポジトリのルートフォルダ/
+  ┣ .github/
+  ┃   ┗ workflows/
+  ┃       ┗ main.yml
+  ┃
+  ┣ main.md
+  ┗ .gitignoreとか
+```
+そしたらmain.ymlを以下のように記述する。
+github-emailとgithub-usernameは自分のものに置き換える必要がある。
+```yaml
+# This is a basic workflow to help you get started with Actions
+name: test
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Generate PDF documents
+      uses: ./
+      with:
+        working_directory: test
+        mode: mdtopdf
+        root_file: test.md
+    - name: Commit files
+      run: |
+        git add test/test.pdf
+        git add test/test.tex
+        git config --local user.email "github-email"
+        git config --local user.name "github-username"
+        git commit -m "Generate by GitHub Actions" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+
+```
+
 ## 実装
 以下のように実装した。構造自体は[前回の記事](https://3rdjcg.dev/post/latex-github-action/)とほぼ同様である。
 
@@ -43,7 +96,3 @@ Pandocと周辺ソフトウェアをDockerイメージにまとめた[mdtopdf](h
 ### GitHub Actions
 前に作ったAction[3rdJCG/latex-build-langja](https://github.com/3rdJCG/latex-build-langja)をもとに上述したDockerイメージを使用するように変更し、
 mdtopdfのPDF以外のTeXやHTML出力機能も使えるようにオプションで対応したAction[3rdJCG/mdtopdf-action](https://github.com/3rdJCG/mdtopdf-action)を作成した。
-
-
-## 使用法
-あ
