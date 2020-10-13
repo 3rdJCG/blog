@@ -83,6 +83,25 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
+```main.md```は適当なMarkdownの文書の内容があれば問題ないが、PDF用のタイトルは以下の例のように"-"で囲って記述する。
+```markdown
+---
+title: 'テスト文書'
+author: '3rdJCG'
+date: \the\year/\the\month/\the\day
+---
+
+# セクション
+あいうえお
+
+## サブセクション
+かきくけこ
+
+$$
+\mathrm{e}^{\mathrm{i}\theta} = \cos(\theta) + \mathrm{i}\sin(\theta)
+$${#eq:equation}
+```
+
 ## 実装
 以下のように実装した。構造自体は[前回の記事](https://3rdjcg.dev/post/latex-github-action/)とほぼ同様である。
 
