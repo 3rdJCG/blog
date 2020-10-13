@@ -102,6 +102,9 @@ $$
 $${#eq:equation}
 ```
 
+この構成でGitHubにリポジトリを作成し、Pushすると自動でMarkdownがPDFに変換される。
+ただしinitial commitでは実行されないので注意してほしい。
+
 ## 実装
 以下のように実装した。構造自体は[前回の記事](https://3rdjcg.dev/post/latex-github-action/)とほぼ同様である。
 
