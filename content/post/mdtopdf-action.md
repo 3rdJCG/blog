@@ -48,8 +48,6 @@ LaTeXに詳しくない友人とちょっとした文書を共同で書くこと
 
 ```main.yml```を以下のように記述する。
 github-emailとgithub-usernameは自分のものに置き換える必要がある。
-
-- ```main.yml```
 ```yaml
 # This is a basic workflow to help you get started with Actions
 name: test
