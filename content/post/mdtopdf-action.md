@@ -67,24 +67,20 @@ jobs:
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-    - name: Generate PDF documents
-      uses: ./
+    - name: Generate rulebook PDF
+      uses: 3rdJCG/mdtopdf-action@0.1.0
       with:
-        working_directory: test
-        mode: mdtopdf
-        root_file: test.md
+        root_file: main.md
     - name: Commit files
       run: |
-        git add test/test.pdf
-        git add test/test.tex
+        git add main.pdf
         git config --local user.email "github-email"
         git config --local user.name "github-username"
-        git commit -m "Generate by GitHub Actions" -a
+        git commit -m "Generate main.pdf" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-
 ```
 
 ## 実装
