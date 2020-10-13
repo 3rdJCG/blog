@@ -83,7 +83,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-```main.md```は適当なMarkdownの文書の内容があれば問題ないが、PDF用のタイトルは以下の例のように"-"で囲って記述する。
+```main.md```は適当なMarkdownの文書の内容があれば問題ないが、PDF用のタイトルは以下の例のように"---"で囲って記述する。
 ```markdown
 ---
 title: 'テスト文書'
