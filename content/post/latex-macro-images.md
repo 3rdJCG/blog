@@ -48,7 +48,7 @@ projects: []
 ```
 
 以下のコードをコピペする。
-```LaTeX
+```TeX
 \documentclass[uplatex,dvipdfmx]{jsarticle}
 \usepackage{graphicx}
 
