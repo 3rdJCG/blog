@@ -80,19 +80,19 @@ Qiitaの記事[^1]を参考にしてループを作成した。
 このループ内で```\number\cnt```を参照するとそのときのループのカウントが返る。
 
 しかし```\number\cnt```を
-```LaTeX
+```TeX
 \includegraphics{figure/\number\cnt.png}
 ```
 のように```\includegraphics```内で参照するとエラーとなってしまう。
 
 ここで```\newcommand```で
-```LaTeX
+```TeX
 \newcommand{\filepath}[1]{#1}
 ```
 のように変数の値を返すコマンドを定義する。
 
 このコマンドを以下のように```\includegraphics```で使うことで連番画像の挿入をマクロ化することができる。
-```LaTeX
+```TeX
 \includegraphics{figure/\filepath{\number\cnt}.png}
 ```
 
