@@ -98,4 +98,4 @@ Qiitaの記事[^1]を参考にしてループを作成した。
 
 この手法は変数をそのまま挿入できない他の場面でも役立つかもしれない
 
-[^1]: https://qiita.com/tttamaki/items/b0f735a8ab1a5c524130
+[^1]: [LaTeXマクロでfor/whileループ](https://qiita.com/tttamaki/items/b0f735a8ab1a5c524130)
