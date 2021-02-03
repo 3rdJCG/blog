@@ -18,7 +18,7 @@ organizations:
   url: "http://www.kisarazu.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 電子工作とLaTeXが趣味の学生です
+bio: I am a student, and I enjoy electronics and LaTeX.
 
 interests:
 - PCB Design
@@ -65,5 +65,5 @@ user_groups:
 - Visitors
 ---
 
-電子工作が趣味の学生です。
-他にLaTeXでレポートをいかに効率的に書くかを研究しています。
+I am a student, and I enjoy electronics and LaTeX.
+I am researching efficient ways to create documents using LaTeX.
