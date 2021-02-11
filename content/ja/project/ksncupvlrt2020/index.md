@@ -70,3 +70,13 @@ projects: []
 ---
 以下のWebサイトを構築しました。
 - [KOSENation Gaming](https://kosenation.netlify.app)
+
+<br>
+
+## 使用したソフトウェア
+---
+各種デザインにはXD及びPhotoshopを用いました。
+{{< figure src="howtomake.png" title="制作中のスクリーンショット" class="center">}}
+
+Webサイトは[HUGO](https://gohugo.io) を用いて生成し、GitHubとNetlifyを連携させて自動デプロイを実現しています。
+{{< figure src="howtodeploy.png" title="デプロイの様子" class="center">}}
