@@ -18,37 +18,37 @@ subtitle = ""
   icon = "KiCad-Logo-red"
   icon_pack = "custom"
   name = "KiCad"
-  description = "90%"
+  description = "自信あり"
 
 [[feature]]
   icon = "Arduino-Logo-red"
   icon_pack = "custom"
   name = "Arduino"
-  description = "90%"
+  description = "自信あり"
 
 [[feature]]
   icon = "microchip"
   icon_pack = "fas"
   name = "MCU Programming"
-  description = "80%"
+  description = "それなりにやった"
 
 [[feature]]
   icon = "LaTeX-Logo-red"
   icon_pack = "custom"
   name = "LaTeX/TeX"
-  description = "80%"
+  description = "自信あり"
   
 [[feature]]
   icon = "git-alt"
   icon_pack = "fab"
   name = "Git"
-  description = "90%"
+  description = "それなりに使った"
 
 [[feature]]
   icon = "docker"
   icon_pack = "fab"
   name = "Docker"
-  description = "60%"
+  description = "まあまあ使った"
 
 
 # Uncomment to use emoji icons.
