@@ -34,6 +34,8 @@ projects: []
 
 <br>
 
+# 各種デザイン
+
 ## ロゴの制作
 ---
 大会の開催を行う団体である"KOSENation Gaming"のロゴ、及び大会のロゴを制作しました。
@@ -66,17 +68,24 @@ projects: []
 
 <br>
 
-## Webサイトの構築
----
-以下のWebサイトを構築しました。
-- [KOSENation Gaming](https://kosenation.netlify.app)
-
-<br>
-
 ## 使用したソフトウェア
 ---
 各種デザインにはXD及びPhotoshopを用いました。
 {{< figure src="howtomake.png" title="制作中のスクリーンショット" class="center">}}
 
-Webサイトは[HUGO](https://gohugo.io) を用いて生成し、GitHubとNetlifyを連携させて自動デプロイを実現しています。
+<br>
+
+# Webサイトの構築
+---
+以下のWebサイトを構築しました。
+- [KOSENation Gaming](https://kosenation.netlify.app)
+
+Webサイトは[HUGO](https://gohugo.io) を用いて生成しているため、高速な読み込みを可能としています。
+テーマは[Kross-Hugo](https://themes.gohugo.io/kross-hugo-portfolio-template/) を一部CSSをカスタマイズした上で用いました。
+
+GitHubとNetlifyを連携させて自動デプロイを実現しています。
+またGitHubを用いることでブラウザから記事の編集ができるので、非情報系の運営がいても容易に記事の編集が可能です。
 {{< figure src="howtodeploy.png" title="デプロイの様子" class="center">}}
+
+<br>
+
