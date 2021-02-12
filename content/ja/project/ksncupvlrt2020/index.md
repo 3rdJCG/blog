@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "KOSENation CUP VALORANTのデザイン"
+title: "KOSENation CUP VALORANT"
 subtitle: ""
 summary: ""
 authors: []

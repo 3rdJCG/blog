@@ -18,13 +18,13 @@ subtitle = ""
   icon = "KiCad-Logo-red"
   icon_pack = "custom"
   name = "KiCad"
-  description = "自信あり"
+  description = "業務経験あり"
 
 [[feature]]
   icon = "Arduino-Logo-red"
   icon_pack = "custom"
   name = "Arduino"
-  description = "自信あり"
+  description = "業務経験あり"
 
 [[feature]]
   icon = "microchip"
