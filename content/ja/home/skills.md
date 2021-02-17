@@ -27,16 +27,16 @@ subtitle = ""
   description = "業務経験あり"
 
 [[feature]]
-  icon = "microchip"
-  icon_pack = "fas"
-  name = "MCU Programming"
-  description = "それなりにやった"
-
-[[feature]]
   icon = "LaTeX-Logo-red"
   icon_pack = "custom"
   name = "LaTeX/TeX"
   description = "自信あり"
+
+[[feature]]
+  icon = "linux"
+  icon_pack = "fab"
+  name = "Linux"
+  description = "それなりに使った"
   
 [[feature]]
   icon = "git-alt"
