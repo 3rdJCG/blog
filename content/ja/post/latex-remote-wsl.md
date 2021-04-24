@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: []
 tags: []
-categories: []
+categories: [Tech]
 date: 2021-04-24T09:40:40+09:00
 lastmod: 2021-04-24T09:40:40+09:00
 featured: false
