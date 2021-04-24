@@ -5,7 +5,7 @@ title: "GitHub ActionsでLaTeXのビルドを自動化する"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: [LaTeX, Docker, GitHub Actions, CI]
 categories: [Tech]
 date: 2020-08-03T22:02:45+09:00
 lastmod: 2020-08-03T22:02:45+09:00

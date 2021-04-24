@@ -5,7 +5,7 @@ title: "LaTeXで連番画像の挿入をマクロ化する"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: [LaTeX]
 categories: [Tech]
 date: 2020-12-08T17:50:23+09:00
 lastmod: 2020-12-08T17:50:23+09:00

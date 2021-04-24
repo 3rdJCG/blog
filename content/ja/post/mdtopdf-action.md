@@ -5,7 +5,7 @@ title: "Markdownから自動でPDFを出力するGitHub Actionを作成した"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: [LaTeX, GitHub Actions, pandoc, Markdown, Docker, CI]
 categories: [Tech]
 date: 2020-09-29T10:28:56+09:00
 lastmod: 2020-09-29T10:28:56+09:00
@@ -67,7 +67,7 @@ jobs:
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-    - name: Generate rulebook PDF
+    - name: Generate PDF
       uses: 3rdJCG/mdtopdf-action@0.1.0
       with:
         root_file: main.md
