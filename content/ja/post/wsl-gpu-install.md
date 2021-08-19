@@ -129,5 +129,16 @@ IFS=$OLDIFS
 echo "[enclips] Finished encording"
 ```
 
+## 追記
+普通に考えてWindowsにFFmpegのバイナリいれてPATH通して、
+```sh
+ffmpeg.exe -i $file ~~~~~~
+```
+したほうがパフォーマンス出るしWSLにCUDAいれる手間もいらない。
+バッチファイルもPowerShellスクリプトも書きたくないとはいえなんでこんな方法にしたんだ。
+何を考えていたんだ俺は。
+
+いつかWSLでCUDA使うかもしれないので記事は残す。
+
 [^1]: [待ってました CUDA on WSL 2](https://qiita.com/ksasaki/items/ee864abd74f95fea1efa)
 [^2]: [CUDA in WSL2を試す](https://rigaya34589.blog.fc2.com/blog-entry-1259.html)
